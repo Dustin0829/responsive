@@ -1,0 +1,114 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  box-shadow: 14px 14px 71px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 14px 71px -1px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 14px 14px 71px -1px rgba(0, 0, 0, 0.973);
+}
+
+nav > div {
+  height: 100%;
+}
+
+.leftnav {
+  width: 100px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftnav a {
+  height: 80%;
+  width: 90%;
+}
+.leftnav img {
+  height: 100%;
+  width: 100%;
+}
+
+.rightnav {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.rightnav a {
+  text-decoration: none;
+  color: rgba(26, 24, 24, 0.822);
+  font-size: 25px;
+  padding: 36px;
+  text-align: center;
+}
+.rightnav a:hover {
+  color: rgba(241, 121, 0, 0.808);
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(peakpx.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.righthero {
+  height: 50%;
+  width: 50%;
+  margin-left: 100px;
+  position: relative;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 70px;
+  color: rgba(241, 121, 0, 0.808);
+  margin: 0;
+  text-shadow: 6px 1px 7px rgba(0, 0, 0, 0.67);
+}
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 70px;
+  color: rgb(58, 58, 58);
+  margin: 0;
+}
+p {
+  font-size: 26px;
+  text-shadow: 6px 1px 7px rgba(0, 0, 0, 0.932);
+  color: rgb(255, 255, 255);
+}
+
+button {
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10 20 10 20;
+}
+.booknow {
+  background-color: rgba(241, 121, 0, 0.808);
+}
+
+.learnmore:hover {
+  background-color: rgba(241, 121, 0, 0.808);
+}
+
+.spike {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
